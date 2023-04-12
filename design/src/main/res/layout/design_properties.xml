@@ -92,7 +92,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginVertical="@dimen/properties_element_margin_vertical"
-                    android:onClick="@{() -> self.requestBrowseFiles()}"
                     app:icon="@drawable/ic_outline_folder"
                     app:subtext="@string/browse_configuration_providers"
                     app:text="@string/browse_files" />
